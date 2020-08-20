@@ -13,7 +13,7 @@ body {
     padding: 15% 0 60px 0;
 }
 .header h1 {
-    font-size: 4em;
+    /* font-size: 4em; */
     text-transform: uppercase;
 }
 /*image section*/
@@ -38,6 +38,9 @@ body {
         display: grid;
         grid-template-columns: auto auto auto;
     }
+    .header h1 {
+        font-size: 4em;
+    }
 }
 
 /* Devices with width minimun 590px and 1000px;*/
@@ -45,5 +48,8 @@ body {
     .image-section {
         display: grid;
         grid-template-columns: auto auto;
+    }
+    .header h1 {
+        font-size: 4em;
     }
 }
